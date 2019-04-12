@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 class UserForm extends Component {
   render() {
     return (
-      <div className="UserForm">
+      <div className="UserForm w-50 float-right">
   <form>
   <div className="form-group">
     <label forHtml="exampleInputEmail1">Email address</label>
