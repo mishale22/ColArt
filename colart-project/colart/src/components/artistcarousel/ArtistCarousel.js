@@ -3,9 +3,13 @@ import Carousel from 'react-bootstrap/Carousel'
 
 class ArtistCarousel extends Component {
   render() {
+
+    var styles={
+      textColor:'black',
+    };
     return (
       <div className="ArtistCarousel">
-   <Carousel className="w-50">
+   <Carousel className="w-50 mx-auto">
   <Carousel.Item className="w-100">
     <img
       className="d-block w-100"
@@ -13,8 +17,8 @@ class ArtistCarousel extends Component {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3 className="">Sabemos que amas lo que haces</h3>
+      <p>Promociona tus eventos para aumentar el alcance de tu publicidad a un público más amplio.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -25,8 +29,8 @@ class ArtistCarousel extends Component {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3 >¡Disfruta de tus artistas favoritos!</h3>
+      <p>Te mantenemos actualizado de los diferentes eventos que realizan los artistas que te gustan.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -37,11 +41,11 @@ class ArtistCarousel extends Component {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3 >Plataforma Crowdfunding</h3>
+      <p>¡Tus fans quieren que seas el mejor, por eso dan todo su apoyo para que te conviertas en lo que más deseas!</p>
     </Carousel.Caption>
   </Carousel.Item>
-</Carousel>;
+</Carousel>
       </div>
     );
   }

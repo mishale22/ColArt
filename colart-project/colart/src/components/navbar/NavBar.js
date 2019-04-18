@@ -17,10 +17,19 @@ class NavBar extends Component {
         <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Soy Artista</a>
+        <a className="nav-link" href="#">Ver Artistas</a>
       </li>
+      <li className="nav-item">
+        <a className="nav-link" href="#">Info</a>
+      </li>
+
+     
     </ul>
+   
   </div>
+  <form className="form-inline">
+    <button className="btn btn-outline-info my-2 my-sm-0" type="submit">Iniciar Sesión</button>
+  </form>
 </nav>
       </div>
     );
