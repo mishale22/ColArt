@@ -2,41 +2,113 @@ import React, { Component } from 'react';
 
 class ArtistProfile extends Component {
   render() {
-    var styles={ width:'300px',
-    height:'300px',
-    borderRadius:'150px',
-marginLeft:'10px',
-};
+    var styles = {
+      width: '300px',
+      height: '300px',
+      borderRadius: '150px',
+      marginLeft: '10px',
+    };
 
-var video={ width:'320px',
-    height:'240px'
-};
-  return (
+    var icons = {
+      fontSize: "50",
+      textColor:'black'
+    }
+
+    
+    var video = {
+      width: '320px',
+      height: '240px'
+    };
+    return (
       <div className="ArtistProfile container">
- 
-
- <h1>Daniel Quintero</h1>
-
- <img src="https://images.unsplash.com/photo-1522536421511-14c9073df899?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" style={styles}></img>
-
-<div className="mt-5"id="descripcion">
-<h2>Descripción</h2>
-<p>Me apasiona la música desde el vientre de mi madre. He soñado que con la letra de mis canciones <br></br>
-  las personas se conecten conmigo y disfruten la vida de otra manera con la melodía de mi guitarra.
-</p>
-</div>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hXQxSi34GWY?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h2>Próximos Eventos</h2>
-<h6>Fecha: Mayo 12, 2019</h6>
-<h6>Celebración Día de la Madre</h6>
-<h6>Presentación en vivo en Hotel Dann Cartlon</h6>
 
 
-<a className="nav-link" href="/Crowdfunding"><h4>¡Apoyame!</h4>
-</a>
 
 
+        <div className="container">
+          <h1 className="text-center">Daniel Quintero</h1>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div className="row">
+            <div className="col-sm">
+              <img src="https://images.pexels.com/photos/1425297/pexels-photo-1425297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style={styles}></img>
+
+            </div>
+            <div className="col-sm">
+
+              <h1>Descripción</h1>
+              <p>Me apasiona la música desde el vientre de mi madre. He soñado que con la letra de mis canciones. <br></br>
+                Las personas se conecten conmigo y disfruten la vida de otra manera con la melodía de mi guitarra.</p>
+            </div>
+
+
+
+
+          </div>
+
+
+          <div className="row">
+            <div className="col-sm">
+              <h2><i class="fa fa-calendar"></i>Próximos Eventos</h2>
+              <h5>Fecha: Mayo 12, 2019</h5>
+              <h5>Celebración Día de la Madre</h5>
+              <h6>Presentación en vivo en Hotel Dann Carlton</h6>
+              <hr></hr>
+              <h5>Fecha: Junio 13, 2019</h5>
+              <h5>Homenaje Metallica</h5>
+              <h6>Presentación en vivo en Bar Route66</h6>
+              <hr></hr>
+
+            </div>
+            <div className="col-sm">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/hXQxSi34GWY?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+          </div>
+
+
+          <div className="row">
+            <div className="col-sm">
+
+            </div>
+
+
+            <div className="col-sm">
+
+              <div className="row">
+                <div className="col-sm">
+                 
+                  <a className="nav-link" style={icons} href="/Crowdfunding">
+                  <i class="fa fa-credit-card fa-5x"></i>
+                  <h5>¡Apoyame!</h5>
+                  </a>
+                </div>
+                <div className="col-sm">
+
+                  <div className="float-right" >
+
+                    <i class="fa fa-facebook-square fa-5x " ></i>
+                    <i class="fa fa-twitter-square fa-5x"></i>
+                    <i class="fa fa-youtube fa-5x margin-left"></i>
+
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            </div>
+
+
+
+
+
+          </div>
+
+        </div>
       </div>
     );
   }

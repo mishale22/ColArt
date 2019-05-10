@@ -21,7 +21,7 @@ class Category extends Component {
                      El concepto de música ha ido evolucionando desde su origen en la Antigua Grecia, en que se reunía sin distinción a la poesía, la música y la danza como arte unitario.</h5>
 
                             <a className="nav-link" href="/CategoryDetail">
-                                <button className="btn btn-primary">Aprender más</button>
+                                <button className="btn btn-primary float-right">Aprender más</button>
                             </a>
 
                         </div>

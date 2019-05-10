@@ -8,10 +8,7 @@ class ArtistCarousel extends Component {
       textColor:'black',
     };
 
-    var fontCarousel={
-      background:'gray',
-      opacity:'0.8'
-    };
+   
     return (
       <div className="ArtistCarousel">
    <Carousel className="w-50 mx-auto">
@@ -22,7 +19,7 @@ class ArtistCarousel extends Component {
       alt="First slide"
     />
     
-    <Carousel.Caption style={fontCarousel}>
+    <Carousel.Caption  className="p-3 mb-2 bg-dark text-white">
       <h3 className="">¡Sabemos que amas lo que haces!</h3>
       <p>Promociona tus eventos para aumentar el alcance de tu publicidad a un público más amplio.</p>
     </Carousel.Caption>
@@ -31,11 +28,11 @@ class ArtistCarousel extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100" 
-      src="https://images.pexels.com/photos/952422/pexels-photo-952422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-      alt="Third slide"
+      src="https://images.pexels.com/photos/1916821/pexels-photo-1916821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      alt="Second slide"
     />
 
-    <Carousel.Caption>
+    <Carousel.Caption  className="p-3 mb-2 bg-dark text-white">
       <h3 >¡Disfruta de tus artistas favoritos!</h3>
       <p>Te mantenemos actualizado de los diferentes eventos que realizan los artistas que te gustan.</p>
     </Carousel.Caption>
@@ -47,7 +44,7 @@ class ArtistCarousel extends Component {
       alt="Third slide"
     />
 
-    <Carousel.Caption>
+    <Carousel.Caption  className="p-3 mb-2 bg-dark text-white">
       <h3 >Plataforma Crowdfunding</h3>
       <p>¡Tus fans quieren que seas el mejor, por eso dan todo su apoyo para que te conviertas en lo que más deseas!</p>
     </Carousel.Caption>

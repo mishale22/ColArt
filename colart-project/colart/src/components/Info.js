@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Foto} from '../'
+
 class Info extends Component {
   render() {
     var styles={ width:'300px',
@@ -9,7 +9,7 @@ class Info extends Component {
     };
     return (
       <div className="Info container mr-5">
-     <img src="../src/COLART.png" className="mr-5" style={styles}/>
+     <img src="https://scontent.fclo2-1.fna.fbcdn.net/v/t1.0-9/59350699_2300165483605651_6684197632136445952_n.png?_nc_cat=101&_nc_ht=scontent.fclo2-1.fna&oh=85c0ba06a5ffaba9cd7f37699ebe4a37&oe=5D6373FD"class="img-responsive" style={styles}></img>
     
       <br></br>
       <h1>SOBRE NOSOTROS</h1>
