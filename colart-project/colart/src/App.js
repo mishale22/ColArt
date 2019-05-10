@@ -12,6 +12,7 @@ import Home from './components/Home'
 import Info from './components/Info'
 import Payment from './components/Payment/Payment'
 import ArtistProfile from './components/artistprofile/ArtistProfile'
+import Crowdfunding from './components/Crowdfunding/Crowdfunding'
 class App extends Component {
   render() {
     ReactGA.initialize('194896059');
@@ -23,9 +24,11 @@ class App extends Component {
 
       <Route exact path="/categorias" component={Categories}/>
       <Route exact path="/home" component={Home} />
+      <Route exact path="/" component={Home} />
       <Route exact path="/Info" component={Info} />
       <Route exact path="/Payment" component={Payment} />
       <Route exact path="/ArtistProfile" component={ArtistProfile} />
+      <Route exact path="/Crowdfunding" component={Crowdfunding} />
       </Router>
       </div>
     );

@@ -15,8 +15,8 @@ class Home extends Component {
       <br></br>
       <div className="text-center">
       
-      <a className="nav-link" href="/Payment">¡Quiero ser parte de Colart!
-      <button type="submit" className="btn btn-info text-center"></button></a>
+      <a className="nav-link" href="/Payment">
+      <button type="submit" className="btn btn-info text-center">¡Quiero ser parte de Colart!</button></a>
       </div>
       <br></br>
       <ArtistCard></ArtistCard>

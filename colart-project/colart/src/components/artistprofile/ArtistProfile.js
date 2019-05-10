@@ -7,6 +7,10 @@ class ArtistProfile extends Component {
     borderRadius:'150px',
 marginLeft:'10px',
 };
+
+var video={ width:'320px',
+    height:'240px'
+};
   return (
       <div className="ArtistProfile container">
  
@@ -22,7 +26,7 @@ marginLeft:'10px',
 </p>
 </div>
 
-<video></video>
+<video src="https://www.youtube.com/watch?v=OQMKrXt-mlQ" controls style={video} > Video not supported</video>
 
 <h2>Próximos Eventos</h2>
 <h6>Fecha: Mayo 12, 2019</h6>
@@ -30,7 +34,7 @@ marginLeft:'10px',
 <h6>Presentación en vivo en Hotel Dann Cartlon</h6>
 
 
-<a href><h4>¡Apoyame!</h4>
+<a className="nav-link" href="/Crowdfunding"><h4>¡Apoyame!</h4>
 </a>
 
 
