@@ -1,6 +1,28 @@
 import React, { Component } from 'react';
+import Crowdfunding from '../Crowdfunding/Crowdfunding';
+import { Modal } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 class ArtistProfile extends Component {
+  constructor(props, context) {
+    super(props, context);
+
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
+
+    this.state = {
+      show: false,
+    };
+  }
+
+  handleClose() {
+    this.setState({ show: false });
+  }
+
+  handleShow() {
+    this.setState({ show: true });
+  }
+
   render() {
     var styles = {
       width: '300px',
@@ -11,10 +33,10 @@ class ArtistProfile extends Component {
 
     var icons = {
       fontSize: "50",
-      textColor:'black'
+      textColor: 'black'
     }
 
-    
+
     var video = {
       width: '320px',
       height: '240px'
@@ -79,11 +101,24 @@ class ArtistProfile extends Component {
 
               <div className="row">
                 <div className="col-sm">
-                 
-                  <a className="nav-link" style={icons} href="/Crowdfunding">
-                  <i class="fa fa-credit-card fa-5x"></i>
-                  <h5>¡Apoyame!</h5>
-                  </a>
+                  <Button variant="light btn-lg" onClick={this.handleShow}>
+                    <i class="fa fa-credit-card fa-5x"></i> ¡Apoyame!
+  </Button>
+
+                  <Modal show={this.state.show} onHide={this.handleClose}>
+                    <Modal.Header closeButton>
+                      <Modal.Title>Crowdfunding</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body> <Crowdfunding /> </Modal.Body>
+                    <Modal.Footer>
+                      <Button variant="secondary" onClick={this.handleClose}>
+                        Cerrar
+            </Button>
+                      <Button variant="primary" onClick={this.handleClose}>
+                        Aceptar
+            </Button>
+                    </Modal.Footer>
+                  </Modal>
                 </div>
                 <div className="col-sm">
 
