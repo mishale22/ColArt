@@ -17,7 +17,7 @@ class ArtistCarousel extends Component {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3 className="">Sabemos que amas lo que haces</h3>
+      <h3 className="">¡Sabemos que amas lo que haces!</h3>
       <p>Promociona tus eventos para aumentar el alcance de tu publicidad a un público más amplio.</p>
     </Carousel.Caption>
   </Carousel.Item>
