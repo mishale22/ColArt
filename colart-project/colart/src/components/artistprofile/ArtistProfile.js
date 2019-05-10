@@ -26,8 +26,7 @@ var video={ width:'320px',
 </p>
 </div>
 
-<video src="https://www.youtube.com/watch?v=OQMKrXt-mlQ" controls style={video} > Video not supported</video>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hXQxSi34GWY?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h2>Próximos Eventos</h2>
 <h6>Fecha: Mayo 12, 2019</h6>
 <h6>Celebración Día de la Madre</h6>

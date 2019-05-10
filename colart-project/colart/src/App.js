@@ -13,9 +13,12 @@ import Info from './components/Info'
 import Payment from './components/Payment/Payment'
 import ArtistProfile from './components/artistprofile/ArtistProfile'
 import Crowdfunding from './components/Crowdfunding/Crowdfunding'
+import Category from './components/category/Category';
+import CategoryDetail from './components/categorydetail/CategoryDetail';
+
 class App extends Component {
   render() {
-    ReactGA.initialize('194896059');
+    ReactGA.initialize('UA-139862546-1');
     ReactGA.pageview("/");
     return (
       <div className="App">
@@ -29,6 +32,9 @@ class App extends Component {
       <Route exact path="/Payment" component={Payment} />
       <Route exact path="/ArtistProfile" component={ArtistProfile} />
       <Route exact path="/Crowdfunding" component={Crowdfunding} />
+      <Route exact path="/Category" component={Category} />
+      <Route exact path="/CategoryDetail" component={CategoryDetail} />
+      
       </Router>
       </div>
     );
