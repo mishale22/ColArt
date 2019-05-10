@@ -22,18 +22,18 @@ class App extends Component {
     ReactGA.pageview("/");
     return (
       <div className="App">
-     <Router>
+     <Router basename={process.env.PUBLIC_URL}>
       <NavBar></NavBar>
 
-      <Route exact path="/categorias" component={Categories}/>
-      <Route exact path="/home" component={Home} />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/Info" component={Info} />
-      <Route exact path="/Payment" component={Payment} />
-      <Route exact path="/ArtistProfile" component={ArtistProfile} />
-      <Route exact path="/Crowdfunding" component={Crowdfunding} />
-      <Route exact path="/Category" component={Category} />
-      <Route exact path="/CategoryDetail" component={CategoryDetail} />
+      <Route  exact path="/categorias" component={Categories}/>
+      <Route  exact path="/home" component={Home} />
+      <Route exact  path="/" component={Home} />
+      <Route  exact path="/Info" component={Info} />
+      <Route  exact path="/Payment" component={Payment} />
+      <Route exact  path="/ArtistProfile" component={ArtistProfile} />
+      <Route  exact path="/Crowdfunding" component={Crowdfunding} />
+      <Route  exact path="/Category" component={Category} />
+      <Route exact  path="/CategoryDetail" component={CategoryDetail} />
       
       </Router>
       </div>
