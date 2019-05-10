@@ -2,26 +2,36 @@ import React, { Component } from 'react';
 
 class ArtistProfile extends Component {
   render() {
-    return (
-      <div className="ArtistProfile">
+    var styles={ width:'300px',
+    height:'300px',
+    borderRadius:'150px',
+marginLeft:'10px',
+};
+  return (
+      <div className="ArtistProfile container">
  
 
  <h1>Daniel Quintero</h1>
 
- <img></img>
+ <img src="https://images.unsplash.com/photo-1522536421511-14c9073df899?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" style={styles}></img>
 
- <h2>Descripción</h2>
-
-
- <h3>Yo soy uno de los músicos más reconocidos de la ciudad de Cali</h3>
+<div className="mt-5"id="descripcion">
+<h2>Descripción</h2>
+<p>Me apasiona la música desde el vientre de mi madre. He soñado que con la letra de mis canciones <br></br>
+  las personas se conecten conmigo y disfruten la vida de otra manera con la melodía de mi guitarra.
+</p>
+</div>
 
 <video></video>
 
-<h2>Eventos</h2>
+<h2>Próximos Eventos</h2>
+<h6>Fecha: Mayo 12, 2019</h6>
+<h6>Celebración Día de la Madre</h6>
+<h6>Presentación en vivo en Hotel Dann Cartlon</h6>
 
 
-<h4>¡Apoyame!</h4>
-
+<a href><h4>¡Apoyame!</h4>
+</a>
 
 
       </div>

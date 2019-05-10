@@ -1,29 +1,51 @@
 import React, { Component } from 'react';
-import ArtistCard from './artistcard/ArtistCard';
-import ArtistCarousel from './artistcarousel/ArtistCarousel';
-import ServiceCard from './services/ServiceCard';
+
 
 class Payment extends Component {
   render() {
-    
+    var styles={ width:'300px',
+        height:'300px',
+        border:'150px',
+        marginLeft:'5px',
+        marginTop: '5px'
+    };
     return (
       <div className="Payment">
      <div className="text-center">
-      <h1>Somos tu manager para impulsar tu carrera artística en la ciudad</h1>
-      </div>
-      <ArtistCarousel></ArtistCarousel>
-      <br></br>
-      <div className="text-center">
-      <button type="submit" className="btn btn-info text-center">¡Quiero ser parte de Colart!</button>
-      </div>
-      <br></br>
-      <ArtistCard></ArtistCard>
-     <ServiceCard></ServiceCard>
-     
-     <div className="text-center mt-5 mb-5">
-      <button type="submit" className="btn btn-info text-center">¡Quiero ser parte de Colart!</button>
+      <h1>Se parte de ColArt con planes diseñados para ti</h1>
       </div>
     
+      <button type="button" class="btn btn-primary btn-lg" style={styles}>
+      <h3>Free</h3>
+      
+      <h6><i class="fas fa-check"></i>Perfil en la plataforma</h6>
+    </button>
+
+    <button type="button" class="btn btn-success btn-lg" style={styles}>
+      <h3>Básico</h3>
+      <h4>$40.000</h4>
+      <h6><i class="fas fa-check"></i>Perfil en la plataforma</h6>
+      <h6><i class="fas fa-check"></i>Apoyo audiovisual</h6>
+    </button>
+
+    <button type="button" class="btn btn-warning btn-lg" style={styles}>
+      <h3>Estándar</h3>
+      <h4>$60.000</h4>
+      <h6><i class="fas fa-check"></i>Perfil en la plataforma</h6>
+      <h6><i class="fas fa-check"></i>Apoyo audiovisual</h6>
+      <h6><i class="fas fa-check"></i>Recomendación de artistas</h6>
+      <h6><i class="fas fa-check"></i>Convenios con lugares</h6>
+    </button>
+
+    <button type="button" class="btn btn-info btn-lg" style={styles}>
+      <h3>Premium</h3>
+      <h4>$80.000</h4>
+      <h6><i class="fas fa-check"></i>Perfil en la plataforma</h6>
+      <h6><i class="fas fa-check"></i>Apoyo audiovisual</h6>
+      <h6><i class="fas fa-check"></i>Recomendación de artistas</h6>
+      <h6><i class="fas fa-check"></i>Convenios con lugares</h6>
+      <h6><i class="fas fa-check"></i>Crowdfunding</h6>
+    </button>
       </div>
     );
   }

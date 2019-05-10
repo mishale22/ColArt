@@ -5,20 +5,26 @@ class Categories extends Component {
     var styles={ width:'300px',
         height:'150px',
         border:'150px',
-        marginLeft:'10px',
+        marginLeft:'5px',
         marginTop: '5px'
     };
+
+    var hide={
+      display:'none'
+    }
     return (
-      <div className="Categories mx-5">
+      <div className="Categories">
       <h1>Conoce los diferentes tipos de entretenimiento artístico y cultural</h1>
-     <button type="button" class="btn btn-primary btn-lg" style={styles}>
+  
+      <a className="nav-link" href="/ArtistProfile">
+     <button type="button" class="btn btn-primary btn-lg" style={styles}>     
       <h3>Música</h3>
-      <h6>¡Descubre a los mejores talentos músicales!</h6>
-    </button>
+      <h6>¡Descubre a los mejores talentos músicales!</h6> 
+    </button></a>
 
     <button type="button" class="btn btn-primary btn-lg" style={styles}>
       <h3>Pintura</h3>
-      <h6>¡Conoce las obras artísticas más autenticas!</h6>
+      <h6>¡Conoce las obras artísticas más auténticas!</h6>
     </button>
 
     <button type="button" class="btn btn-primary btn-lg" style={styles}>
