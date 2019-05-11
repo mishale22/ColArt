@@ -4,8 +4,8 @@ class ServiceCard extends Component {
 
     
   render() {
-    var styles={ width:'300px',
-        height:'300px',
+    var styles={ width:'250px',
+        height:'250px',
         borderRadius:'150px',
     marginLeft:'10px',
     };
