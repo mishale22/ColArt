@@ -13,39 +13,40 @@ class Payment extends Component {
       <div className="Payment">
      <div className="text-center">
       <h1>Se parte de ColArt con planes diseñados para ti</h1>
-      </div>
+     
     
       <button type="button" class="btn btn-primary btn-lg" style={styles}>
       <h3>Free</h3>
       
-      <h6><i class="fas fa-check"></i>Perfil en la plataforma</h6>
+      <h6><i class="fa fa-check"></i>Perfil en la plataforma</h6>
     </button>
 
-    <button type="button" class="btn btn-success btn-lg" style={styles}>
+    <button type="button" class="btn btn-danger btn-lg" style={styles}>
       <h3>Básico</h3>
       <h4>$40.000</h4>
-      <h6><i class="fas fa-check"></i>Perfil en la plataforma</h6>
-      <h6><i class="fas fa-check"></i>Apoyo audiovisual</h6>
+      <h6><i class="fa fa-check"></i>Perfil en la plataforma</h6>
+      <h6><i class="fa fa-check"></i>Apoyo audiovisual</h6>
     </button>
 
     <button type="button" class="btn btn-warning btn-lg" style={styles}>
       <h3>Estándar</h3>
       <h4>$60.000</h4>
-      <h6><i class="fas fa-check"></i>Perfil en la plataforma</h6>
-      <h6><i class="fas fa-check"></i>Apoyo audiovisual</h6>
-      <h6><i class="fas fa-check"></i>Recomendación de artistas</h6>
-      <h6><i class="fas fa-check"></i>Convenios con lugares</h6>
+      <h6><i class="fa fa-check"></i>Perfil en la plataforma</h6>
+      <h6><i class="fa fa-check"></i>Apoyo audiovisual</h6>
+      <h6><i class="fa fa-check"></i>Recomendación de artistas</h6>
+      <h6><i class="fa fa-check"></i>Convenios con lugares</h6>
     </button>
 
     <button type="button" class="btn btn-info btn-lg" style={styles}>
       <h3>Premium</h3>
       <h4>$80.000</h4>
-      <h6><i class="fas fa-check"></i>Perfil en la plataforma</h6>
-      <h6><i class="fas fa-check"></i>Apoyo audiovisual</h6>
-      <h6><i class="fas fa-check"></i>Recomendación de artistas</h6>
-      <h6><i class="fas fa-check"></i>Convenios con lugares</h6>
-      <h6><i class="fas fa-check"></i>Crowdfunding</h6>
+      <h6><i class="fa fa-check"></i>Perfil en la plataforma</h6>
+      <h6><i class="fa fa-check"></i>Apoyo audiovisual</h6>
+      <h6><i class="fa fa-check"></i>Recomendación de artistas</h6>
+      <h6><i class="fa fa-check"></i>Convenios con lugares</h6>
+      <h6><i class="fa fa-check"></i>Crowdfunding</h6>
     </button>
+    </div>
       </div>
     );
   }

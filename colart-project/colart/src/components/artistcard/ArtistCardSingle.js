@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 class ArtistCardSingle extends Component {
 
     constructor(props) {
@@ -54,9 +55,9 @@ class ArtistCardSingle extends Component {
     render() {
         return (
             <div className="ArtistCardSingle text-center">
+                <Link className="nav-link" to="/ArtistProfile">
 
-                <a className="nav-link" href="/ArtistProfile">
-                
+
                     <div className="card-group mx-auto w-20">
                         <div className="card">
                             <img src="https://images.pexels.com/photos/1735240/pexels-photo-1735240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" className="card-img-top" alt="..." />
@@ -68,7 +69,7 @@ class ArtistCardSingle extends Component {
                         </div>
 
                     </div>
-                </a>
+                </Link>
 
             </div>
         );

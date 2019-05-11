@@ -20,12 +20,14 @@ class App extends Component {
   render() {
     ReactGA.initialize('UA-139862546-1');
     ReactGA.pageview("/");
+   // console.log("This is the process.env:", process.env.PUBLIC_URL)
     return (
       <div className="App">
      <Router basename={process.env.PUBLIC_URL}>
-      <NavBar></NavBar>
+     
+      <NavBar/>
 
-      <Route  exact path="/categorias" component={Categories}/>
+      <Route  exact path="/Categorias" component={Categories}/>
       <Route  exact path="/home" component={Home} />
       <Route exact  path="/" component={Home} />
       <Route  exact path="/Info" component={Info} />

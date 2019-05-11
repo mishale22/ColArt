@@ -27,7 +27,7 @@ class ArtistProfile extends Component {
     var styles = {
       width: '300px',
       height: '300px',
-      borderRadius: '150px',
+      //borderRadius: '150px',
       marginLeft: '10px',
     };
 
@@ -55,8 +55,9 @@ class ArtistProfile extends Component {
           <div className="row">
             <div className="col-sm">
               <img src="https://images.pexels.com/photos/1425297/pexels-photo-1425297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style={styles}></img>
-
+         
             </div>
+           
             <div className="col-sm">
 
               <h1>Descripción</h1>
@@ -72,6 +73,9 @@ class ArtistProfile extends Component {
 
           <div className="row">
             <div className="col-sm">
+            <div>
+              <i class="fa fa-retweet fa-4x text-info"></i> 
+              </div>
               <h2><i class="fa fa-calendar"></i>Próximos Eventos</h2>
               <h5>Fecha: Mayo 12, 2019</h5>
               <h5>Celebración Día de la Madre</h5>

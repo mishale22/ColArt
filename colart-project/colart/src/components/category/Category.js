@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import ArtistCard from '../artistcard/ArtistCard';
 import ArtistCardSingle from '../artistcard/ArtistCardSingle';
 import ArtistProfile from '../artistprofile/ArtistProfile';
+import {Link} from  'react-router-dom';
 class Category extends Component {
     render() {
 
