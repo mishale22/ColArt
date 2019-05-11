@@ -5,62 +5,30 @@ class ArtistCardSingle extends Component {
     constructor(props) {
         super(props);
         this.state = {
-
-            artists: [{
-                name: "Carolina Sierra - Cantante",
-                url: "https://images.pexels.com/photos/1735240/pexels-photo-1735240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                description: "Apasionada por la música. Rock!!"
-            },
-            {
-                name: "Carolina Sierra - Cantante",
-                url: "https://images.pexels.com/photos/1735240/pexels-photo-1735240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                description: "Apasionada por la música. Rock!!"
-            },
-            {
-                name: "Carolina Sierra - Cantante",
-                url: "https://images.pexels.com/photos/1735240/pexels-photo-1735240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                description: "Apasionada por la música. Rock!!"
-            },
-            {
-                name: "Carolina Sierra - Cantante",
-                url: "https://images.pexels.com/photos/1735240/pexels-photo-1735240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                description: "Apasionada por la música. Rock!!"
-            },
-            {
-                name: "Carolina Sierra - Cantante",
-                url: "https://images.pexels.com/photos/1735240/pexels-photo-1735240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                description: "Apasionada por la música. Rock!!"
-            },
-            {
-                name: "Carolina Sierra - Cantante",
-                url: "https://images.pexels.com/photos/1735240/pexels-photo-1735240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                description: "Apasionada por la música. Rock!!"
-            },
-            {
-                name: "Carolina Sierra - Cantante",
-                url: "https://images.pexels.com/photos/1735240/pexels-photo-1735240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                description: "Apasionada por la música. Rock!!"
-            },
-
-
-
-
-
-
-
-            ]
-
+            name: this.props.name,
+            url: this.props.url,
+            description:this.props.description
         };
     }
     render() {
+
+        var styles = {
+            width: '200px',
+            height: '300px',
+          
+            //borderRadius: '150px',
+           // marginLeft: '10px',
+          };
+
+          
         return (
             <div className="ArtistCardSingle text-center">
                 <Link className="nav-link" to="/ArtistProfile">
 
 
-                    <div className="card-group mx-auto w-20">
+                    <div className="card-group mx-auto w-20 img-thumbnail text-center">
                         <div className="card">
-                            <img src={this.state.url} className="card-img-top" alt="..." />
+                            <img src={this.state.url} className="card-img-top mx-auto" style={styles} alt="..." />
                             <div className="card-body">
 
                                 <h5 className="card-title text-dark">{this.state.name}</h5>
