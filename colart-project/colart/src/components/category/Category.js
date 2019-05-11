@@ -6,6 +6,75 @@ import ArtistProfile from '../artistprofile/ArtistProfile';
 import { Link } from 'react-router-dom';
 
 class Category extends Component {
+
+    constructor(){
+        super();
+        this.state = {
+
+            librerias: [
+                {
+                    name: "Daniel Quintero - Guitarrista",
+                    url: "https://images.pexels.com/photos/1425297/pexels-photo-1425297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    description: "El toque de mi guitarra me lleva a las nubes"
+                }, 
+                {
+                    name: "Carolina Sierra - Cantante",
+                    url: "https://images.pexels.com/photos/1735240/pexels-photo-1735240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    description: "Apasionada por la música. Rock!!"
+                }, 
+                {
+                    name: "Pablo Jaramillo - Cantante",
+                    url: "https://images.pexels.com/photos/211050/pexels-photo-211050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    description: "Me encanta cantar baladas"
+                }, 
+                {
+                    name: "Claudia Castillo - Cantante",
+                    url: "https://images.pexels.com/photos/638700/pexels-photo-638700.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    description: "Me encanta cantar la música del pacífico"
+                },
+                {
+                    name: "Pedro Escandón - Saxofonista",
+                    url: "https://images.pexels.com/photos/1813157/pexels-photo-1813157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    description: "El Jazz es lo mío"
+                },
+                {
+                    name: "Cristina Fernandez - Baterista",
+                    url: "https://images.pexels.com/photos/372042/pexels-photo-372042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    description: "El rock corre por mis venas"
+                },
+                {
+                    name: "Andrés Velasquez - Bajista",
+                    url: "https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    description: "Me transformo cuando toco las mejores canciones de rock"
+                },
+                {
+                    name: "Johana Madriñan - Cantante",
+                    url: "https://images.pexels.com/photos/164809/pexels-photo-164809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    description: "Compongo y canto con la pasión del mundo"
+                },
+                {
+                    name: "Diego Ortiz - Guitarrista",
+                    url: "https://images.pexels.com/photos/33667/music-guitar-electric-guitar-sound.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    description: "Con mi guitarra eléctrica toco las mejores canciones"
+                },
+                {
+                    name: "Nathalia Valencia - Pianista",
+                    url: "https://images.pexels.com/photos/1885213/pexels-photo-1885213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    description: "El piano transformó mi vida y mi música lo hará contigo"
+                },
+                {
+                    name: "Juan Agudelo - Guitarrista",
+                    url: "https://images.pexels.com/photos/379962/pexels-photo-379962.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    description: "Me gusta hacer los mejores solos de guitarra. Jazz!!"
+                },
+                {
+                    name: "Mariana Muñoz - Cantante",
+                    url: "https://images.pexels.com/photos/1460037/pexels-photo-1460037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    description: "Canto la mejor música pop que podrías escuchar"
+                },
+            ]
+        };
+    }
     render() {
 
         return (

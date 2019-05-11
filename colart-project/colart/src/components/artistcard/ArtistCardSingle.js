@@ -60,11 +60,11 @@ class ArtistCardSingle extends Component {
 
                     <div className="card-group mx-auto w-20">
                         <div className="card">
-                            <img src="https://images.pexels.com/photos/1735240/pexels-photo-1735240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" className="card-img-top" alt="..." />
+                            <img src={this.state.url} className="card-img-top" alt="..." />
                             <div className="card-body">
 
-                                <h5 className="card-title text-dark">Carolina Sierra - Cantante</h5>
-                                <p className="card-text text-dark">Apasionada por la música. Rock!!</p>
+                                <h5 className="card-title text-dark">{this.state.name}</h5>
+                                <p className="card-text text-dark">{this.state.description}</p>
                             </div>
                         </div>
 
