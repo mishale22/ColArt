@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/ColArt/static/js/runtime~main.857820f3.js"
   },
   {
-    "revision": "44d2a4a31d5fdad43b62",
-    "url": "/ColArt/static/js/main.3c04398c.chunk.js"
+    "revision": "fbfdc2006b7191c3eafd",
+    "url": "/ColArt/static/js/main.eccfb4d2.chunk.js"
   },
   {
     "revision": "6070d98114620211e5e0",
     "url": "/ColArt/static/js/2.a76c2c6b.chunk.js"
   },
   {
-    "revision": "44d2a4a31d5fdad43b62",
+    "revision": "fbfdc2006b7191c3eafd",
     "url": "/ColArt/static/css/main.7f90162e.chunk.css"
   },
   {
-    "revision": "1f6eae7107a49cc05271f75131e4984c",
+    "revision": "a9bb3893a10c69e3e499ccafc068e55a",
     "url": "/ColArt/index.html"
   }
 ];
