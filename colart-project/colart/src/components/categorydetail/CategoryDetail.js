@@ -62,10 +62,9 @@ class CategoryDetail extends Component {
 
 
 
-
-        <a className="nav-link" href="/Category">
+        <Link className="nav-link" to="/Category">
           <button className="btn btn-primary">Volver</button>
-        </a>
+        </Link>
       </div>
     );
   }
