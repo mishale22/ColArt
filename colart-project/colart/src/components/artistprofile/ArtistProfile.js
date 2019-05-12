@@ -50,8 +50,7 @@ class ArtistProfile extends Component {
         <div className="container">
           <h1 className="text-center">Daniel Quintero</h1>
           <br></br>
-          <br></br>
-          <br></br>
+        
           <div className="row">
             <div className="col-sm">
               <img src="https://images.pexels.com/photos/1425297/pexels-photo-1425297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style={styles}></img>
@@ -129,9 +128,9 @@ class ArtistProfile extends Component {
                   <div className="float-right" >
 
                     <i class="fa fa-facebook-square fa-5x " ></i>
-                    <i class="fa fa-twitter-square fa-5x"></i>
+                    <i class="fa fa-instagram fa-5x"></i>
                     <i class="fa fa-youtube fa-5x margin-left"></i>
-
+                   
                   </div>
                 </div>
               </div>
