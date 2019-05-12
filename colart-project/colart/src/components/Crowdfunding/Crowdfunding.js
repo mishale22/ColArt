@@ -15,10 +15,10 @@ marginLeft:'10px',
   <input type="radio" id="apoyame1" name="apoyame1" class="custom-control-input"/>
   <label class="custom-control-label" htmlFor="apoyame1">
   <div>
-  <h3>Proyecto InnPulsa</h3>
-<h5>Este proyecto es para participar en un proyecto de una empresa de música americana</h5>
+  <h3>Proyecto American Aliance</h3>
+<h5>Ayudame a participar en un proyecto de una empresa de música americana</h5>
 <h5>Valor: $25.000</h5>
-<h5>Bono: Agenda un toque musical privado por mí y para ti.</h5>
+<h5>Bono: Obten descuentos del 10% en mis proximos 5 eventos</h5>
 </div>
   </label>
   

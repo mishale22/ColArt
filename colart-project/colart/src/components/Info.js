@@ -7,6 +7,18 @@ class Info extends Component {
         borderRadius:'150px',
     marginLeft:'25px',
     };
+
+    var founders={
+      width:'150px',
+        height:'150px',
+        borderRadius:'150px',
+      marginLeft:'25px'
+    };
+
+    var divs={
+      display: 'inline-block',
+      marginLeft:'55px'
+    };
     return (
       <div className="Info container mr-5">
      <img src="https://scontent.fclo2-1.fna.fbcdn.net/v/t1.0-9/59350699_2300165483605651_6684197632136445952_n.png?_nc_cat=101&_nc_ht=scontent.fclo2-1.fna&oh=85c0ba06a5ffaba9cd7f37699ebe4a37&oe=5D6373FD"class="img-responsive" style={styles}></img>
@@ -22,18 +34,24 @@ class Info extends Component {
          además permite obtener mayores ganancias con la visualización de arte por un público más amplio.</p>
          <br></br>
         <h1>FUNDADORES</h1>
-        <button type="button" class="btn btn-info" style={styles}>
-        <h3>SANDRA NIÑO</h3>
+        <div style={divs}>
+        <img src="https://media.licdn.com/dms/image/C4E03AQFxc2k6X8Y5uw/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=yQvyoJjC4n6Vxs8DB9A1m18gO2fLC82YnlaVdF7VwyM" class="img-responsive" style={founders}></img>
         <br></br>
+        <br></br>
+        <h3>SANDRA NIÑO</h3>
         <h6>Estudiante de Ingeniería de Sistemas</h6>
         <h6>CTO y Comercial</h6>
-        </button>
-        <button type="button" class="btn btn-info" style={styles}>
-        <h3>JOHNATAN GARZÓN</h3>
+        </div>
+
+        <div style={divs}>
+        <img src="https://media.licdn.com/dms/image/C4E03AQFu9pnJhdAjbQ/profile-displayphoto-shrink_800_800/0?e=1563408000&v=beta&t=-4nhW4UDj6Ozv0aa6LkdqZ6lxMROQs0g-uX2rLidEBQ" class="img-responsive" style={founders}></img>
         <br></br>
+        <br></br>
+        <h3>JOHNATAN GARZÓN</h3>
         <h6>Estudiante de Ingeniería de Sistemas</h6>
         <h6>CTO y Financiero</h6>
-        </button>
+        </div>
+        
         <br></br>
         <br></br>
         <h1>REDES SOCIALES</h1>
