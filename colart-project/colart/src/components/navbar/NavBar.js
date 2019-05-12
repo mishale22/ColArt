@@ -8,7 +8,7 @@ class NavBar extends Component {
     return (
       <div className="NavBar">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand text-light" to="/home">ColArt</a>
+          <a className="navbar-brand " to="/home">ColArt</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
