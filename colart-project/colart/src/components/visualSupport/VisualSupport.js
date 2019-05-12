@@ -13,7 +13,7 @@ marginLeft:'10px',
                
                 
 <div className="form-check form-check-inline">
-  <input className="form-check-input" type="radio" id="radio1" name="defaultRadio" />
+  <input className="form-check-input" type="checkbox" id="radio1" name="defaultRadio" />
   <label className="form-check-label" htmlFor="radio1">
   <div>
     <img src="https://images.pexels.com/photos/2250407/pexels-photo-2250407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-responsive" style={styles}/>
@@ -27,7 +27,7 @@ marginLeft:'10px',
 <br></br>
 
 <div className="form-check form-check-inline">
-  <input className="form-check-input" type="radio" id="radio2" name="defaultRadio" />
+  <input className="form-check-input" type="checkbox" id="radio2" name="defaultRadio" />
   <label className="form-check-label" htmlFor="radio2">
   <div>
     <img src="https://images.pexels.com/photos/320617/pexels-photo-320617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-responsive" style={styles}/>
@@ -38,7 +38,7 @@ marginLeft:'10px',
 </div>
 
 <div className="form-check form-check-inline">
-  <input className="form-check-input" type="radio" id="radio3" name="defaultRadio" />
+  <input className="form-check-input" type="checkbox" id="radio3" name="defaultRadio" />
   <label className="form-check-label" htmlFor="radio3">
   <div>
     <img src="https://images.pexels.com/photos/34199/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-responsive" style={styles}/>
@@ -49,7 +49,7 @@ marginLeft:'10px',
 </div>
 
 <div className="form-check form-check-inline">
-  <input className="form-check-input" type="radio" id="radio4" name="defaultRadio" />
+  <input className="form-check-input" type="checkbox" id="radio4" name="defaultRadio" />
   <label className="form-check-label" htmlFor="radio4">
   <div>
     <img src="https://images.pexels.com/photos/53265/pexels-photo-53265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-responsive" style={styles}/>
@@ -60,7 +60,7 @@ marginLeft:'10px',
 </div>
 
 <div className="form-check form-check-inline">
-  <input className="form-check-input" type="radio" id="radio5" name="defaultRadio" />
+  <input className="form-check-input" type="checkbox" id="radio5" name="defaultRadio" />
   <label className="form-check-label" htmlFor="radio5">
   <div>
     <img src="https://images.pexels.com/photos/1694348/pexels-photo-1694348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-responsive" style={styles}/>
@@ -71,7 +71,7 @@ marginLeft:'10px',
 </div>
 
 <div className="form-check form-check-inline">
-  <input className="form-check-input" type="radio" id="radio6" name="defaultRadio" />
+  <input className="form-check-input" type="checkbox" id="radio6" name="defaultRadio" />
   <label className="form-check-label" htmlFor="radio6">
   <div>
     <img src="https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-responsive" style={styles}/>
