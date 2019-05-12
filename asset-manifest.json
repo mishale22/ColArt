@@ -1,13 +1,13 @@
 {
   "main.css": "/ColArt/static/css/main.7f90162e.chunk.css",
-  "main.js": "/ColArt/static/js/main.eccfb4d2.chunk.js",
-  "main.js.map": "/ColArt/static/js/main.eccfb4d2.chunk.js.map",
+  "main.js": "/ColArt/static/js/main.ac80eb82.chunk.js",
+  "main.js.map": "/ColArt/static/js/main.ac80eb82.chunk.js.map",
   "runtime~main.js": "/ColArt/static/js/runtime~main.857820f3.js",
   "runtime~main.js.map": "/ColArt/static/js/runtime~main.857820f3.js.map",
-  "static/js/2.a76c2c6b.chunk.js": "/ColArt/static/js/2.a76c2c6b.chunk.js",
-  "static/js/2.a76c2c6b.chunk.js.map": "/ColArt/static/js/2.a76c2c6b.chunk.js.map",
+  "static/js/2.6022f15b.chunk.js": "/ColArt/static/js/2.6022f15b.chunk.js",
+  "static/js/2.6022f15b.chunk.js.map": "/ColArt/static/js/2.6022f15b.chunk.js.map",
   "index.html": "/ColArt/index.html",
-  "precache-manifest.f48650b3764d35b023fadb161e15e317.js": "/ColArt/precache-manifest.f48650b3764d35b023fadb161e15e317.js",
+  "precache-manifest.dbcb46a63423752aa61fe2e127e9c1ed.js": "/ColArt/precache-manifest.dbcb46a63423752aa61fe2e127e9c1ed.js",
   "service-worker.js": "/ColArt/service-worker.js",
   "static/css/main.7f90162e.chunk.css.map": "/ColArt/static/css/main.7f90162e.chunk.css.map"
 }
