@@ -73,7 +73,12 @@ class ArtistProfile extends Component {
           <div className="row">
             <div className="col-sm">
             <div>
-              <i class="fa fa-retweet fa-4x text-info"></i> 
+              <i class="fa fa-retweet fa-4x text-info mr-4"></i> 
+              <i class="fa fa-star text-warning fa-3x"></i>
+              <i class="fa fa-star text-warning fa-3x"></i>
+              <i class="fa fa-star text-warning fa-3x"></i>
+              <i class="fa fa-star text-warning fa-3x"></i>
+              <i class="fa fa-star-half-o text-warning fa-3x"></i>
               </div>
               <h2><i class="fa fa-calendar"></i>Próximos Eventos</h2>
               <h5>Fecha: Mayo 12, 2019</h5>
