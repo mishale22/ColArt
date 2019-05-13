@@ -8,8 +8,8 @@ class VisualSupport extends Component {
 marginLeft:'10px',
 };
     return (
-      <div className="VisualSupport container">
-<h1>¡Arma tu equipo para tu proyecto audiovisual!</h1>
+      <div className="VisualSupport container text-center">
+<h2>¡Arma tu equipo para tu proyecto audiovisual!</h2>
                
                 
 <div className="form-check form-check-inline">
